@@ -1,9 +1,8 @@
-package ru.job4j.condition;
+package ru.job4j.loop;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import ru.job4j.loop.Factorial;
 
 public class FactorialTest {
 
