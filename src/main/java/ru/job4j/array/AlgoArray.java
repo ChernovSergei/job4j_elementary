@@ -7,11 +7,6 @@ public class AlgoArray {
         array[0] = array[3];
         array[3] = temp;
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + ", ");
-        }
-        System.out.println();
-
         temp = array[4];
         array[4] = array[3];
         array[3] = temp;
