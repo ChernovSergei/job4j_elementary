@@ -5,5 +5,9 @@ public class ArrayDefinition {
         short[] ages = new short[10];
         String[] surnames = new String[100500];
         float[] prices = new float[40];
+
+        System.out.println("Ages array size = " + ages.length);
+        System.out.println("Surnames array size = " + surnames.length);
+        System.out.println("Prices array size = " + prices.length);
     }
 }
