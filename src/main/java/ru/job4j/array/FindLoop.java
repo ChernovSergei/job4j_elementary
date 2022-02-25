@@ -14,7 +14,7 @@ public class FindLoop {
 
     public static int indexOf(int[] data, int el, int start, int finish) {
         int rsl = -1;
-        for (int i = start; i < finish; i++) {
+        for (int i = start; i <= finish; i++) {
             if (el == data[i]) {
                 rsl = i;
                 break;
