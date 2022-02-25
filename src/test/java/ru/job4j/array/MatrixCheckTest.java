@@ -39,7 +39,19 @@ public class MatrixCheckTest {
                 {' ', ' ', 'X'}
         };
         int column = 2;
-        boolean result = MatrixCheck.monoHorizontal(input, column);
+        boolean result = MatrixCheck.monoVertical(input, column);
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void whenDoesntHaveMonoVertical() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'}
+        };
+        int column = 1;
+        boolean result = MatrixCheck.monoVertical(input, column);
         Assert.assertFalse(result);
     }
 }
