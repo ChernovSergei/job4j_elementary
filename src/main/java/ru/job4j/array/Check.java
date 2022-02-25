@@ -5,7 +5,7 @@ public class Check {
         boolean test = array[0];
         boolean result = true;
         for (int i = 1; i < array.length; i++) {
-            if (!array[i] == test) {
+            if (array[i] != test) {
                 result = false;
                 break;
             }
