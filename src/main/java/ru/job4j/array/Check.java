@@ -2,10 +2,9 @@ package ru.job4j.array;
 
 public class Check {
     public static boolean mono(boolean[] array) {
-        boolean test = array[0];
         boolean result = true;
         for (int i = 1; i < array.length; i++) {
-            if (array[i] != test) {
+            if (array[i] != array[0]) {
                 result = false;
                 break;
             }
