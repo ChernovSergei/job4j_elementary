@@ -55,8 +55,8 @@ public class PointTest {
     @Test
     public void when102030to405060then51p96() {
         double expected = 51.96;
-        Point a = new Point(10, 10, 10);
-        Point b = new Point(40, 40, 40);
+        Point a = new Point(10, 20, 30);
+        Point b = new Point(40, 50, 60);
         double out = a.distance3d(b);
         Assert.assertEquals(expected, out, 0.01);
     }
